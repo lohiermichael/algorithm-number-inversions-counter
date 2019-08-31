@@ -2,7 +2,7 @@ import random
 
 
 class InputList(list):
-    def __init__(self, l_length: int, min_value: int = 0, max_value: int = 10000, is_distinct: bool = True):
+    def __init__(self, l_length: int = 100, min_value: int = 0, max_value: int = 10000, is_distinct: bool = True):
         """
         Object of input list for algorithms
         Parameters
